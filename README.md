@@ -14,10 +14,14 @@ Input projection|.
 
 Output relations|.
 ---|---
-`eGFR_0`| numeric, equation 0 calculation of the GFR estimate (e.g. per cell)
-`eGFR_1`| numeric, equation 1 calculation of the GFR estimate (e.g. per cell)
-`eGFR_2`| numeric, equation 2 calculation of the GFR estimate (e.g. per cell)
-`eGFR_3`| numeric, equation 3 calculation of the GFR estimate (e.g. per cell)
+TMAX_h|
+CMAX_ng_per_ml|
+LAMZHL_h|
+AUC_0_4h_ng_per_ml|
+AUC_0_8h_ng_per_ml|
+AUC_0_12h_ng_per_ml|
+AUC_4_24h_ng_per_ml|
+AUC_0_24h_ng_per_ml|
 
 ##### Details
 `snca` operator estimates Glomerular filtration rate (GFR) is the best overall index of kidney function.
