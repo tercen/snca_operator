@@ -50,6 +50,6 @@ if (!check_dose_in_range)  stop ("dose need to be in range from 1mg to 1000mg")
 ctx %>%
   select(.ci, .ri, .y, .x) %>%
   group_by(.ci, .ri) %>%
-  do(do.nca(., R2ADJ)) %>%
+  do(do.nca(.)) %>%
   ctx$addNamespace() %>%
   ctx$save()
